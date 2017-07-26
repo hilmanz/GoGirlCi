@@ -1,0 +1,29 @@
+.gmap {
+	height: 300px;
+	width: 100%;
+	padding: 3px;
+	border: 5px solid #ddd;
+	font-size: 90%;
+}
+.gmap + .gmap {
+	margin: 5px 0;
+}
+.canvas_map {
+	width: 100% !important;
+}
+.gmap img, .gmap object, .gmap embed {
+	max-width: none;
+	height: auto
+}
+.gmap *, .gmap *:before, .gmap *:after {
+	-webkit-box-sizing:content-box;
+	-moz-box-sizing:content-box;
+	box-sizing:content-box;
+}
+#dtabs #info{
+	padding:30px 0;
+	text-align:center;
+}
+#dtabs{
+	margin:0 0 40px 0;
+}

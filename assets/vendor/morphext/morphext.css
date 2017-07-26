@@ -1,0 +1,12 @@
+.morphext > span {
+	display: none;
+	background:#444;
+	color:#fff;
+	padding:0 10px;
+	font-weight:300;
+	text-transform:uppercase;
+}
+
+.morphext > .animated {
+    display: inline-block;
+}
